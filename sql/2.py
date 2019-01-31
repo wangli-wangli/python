@@ -35,6 +35,6 @@ session.commit()
 
 
 #查询并删除数据
-session.query(Product).filter(Product.id='1233445').delete()
+#session.query(Product).filter(Product.id='1233445').delete()
 session.commit()
 session.close()
